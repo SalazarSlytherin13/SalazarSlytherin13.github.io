@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+#header{
+    display: flex;
+    background-color:#ffffff;
+    height: 80px;;
+    
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow:0 4px 12px 0 #d3d3dc;
+}
+
+.myntra_home{
+    height: 36px;
+    width: 53px;
+    
+}
+
+.logo_container{
+    margin-left: 4%;
+
+}
+
+.action_bar{
+     margin-right: 4%; 
+}
+
+.nav_bar{
+    display: flex;
+     min-width: 500px; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4%;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav_bar a{
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 30px 0;
+    border-bottom: 5px solid #ffffff;
+    transition: all 0.2s ease;
+    
+ 
+}
+
+.nav_item.men:hover{
+    border-bottom: 4px solid #ee5f73;
+}
+
+.nav_item.women:hover{
+    border-bottom: 4px solid #fb56c1;
+}
+
+.nav_item.kids:hover{
+    border-bottom:4px solid #f26a10;
+}
+
+.nav_item.home:hover{
+    border-bottom:4px solid #f2c210;
+}
+
+.nav_item.beauty:hover{
+    border-bottom:4px solid #0db7af;
+}
+
+.nav_item.genz:hover{
+    border-bottom: 4px solid #0db7af;
+}
+
+.nav_item.studio:hover{
+    border-bottom:4px solid #ff3f6c
+}
+
+.nav_bar a:hover{
+    border-bottom: 2px solid #f54e77;
+}
+
+
+
+.nav_bar a sup{
+    color: #ff3f6c;
+    font-size: 10px;
+}
+
+.search_bar{
+   display: flex;
+    align-items: center;
+    background-color: #f5f5f6; /* The light grey background */
+    flex-grow: 1;              /* Allows search bar to take up available space */
+    min-width: 255px;
+    width: %;
+    height: 40px;
+    border-radius: 4px;
+    padding: 0 15px;
+    margin: 0 30px;
+
+}
+
+.search_icon{
+    color: #696e79; /* Muted gray for the icon */
+    font-size: 20px !important;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.search_input{
+    background-color: transparent; /* Makes input blend into the container */
+    border: none !important;       /* Removes that black border from your screenshot */
+    outline: none;                 /* Removes the highlight when you click */
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    color: #282c3f;
+}
+
+.search-input:focus {
+    border: none;
+    outline: none;
+}
+
+.action_bar{
+    display: flex;
+    justify-content:space-around;
+    min-width: 200px;
+}
+.action_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.banner_container{
+    width: 100%;
+    margin: 20px 0;
+    cursor: pointer;
+   
+}
+
+.discount_banner{
+    width: 100%;       /* Image fills the 1280px container */
+    height: auto;      /* Keeps the image from looking stretched */
+    display: block;
+}
+
+.container{
+    width: 100%;
+    max-width: 1100px; /* Standard width for Myntra's desktop layout */
+    margin: 0 auto;    /* Centers everything */
+    
+}
+
