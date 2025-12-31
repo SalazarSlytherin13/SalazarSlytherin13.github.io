@@ -297,12 +297,11 @@ header{
     overflow: hidden;
     position: relative;
     border: none; */
-  width: 100%;          /* Takes full width of your screen */
-  max-width: 1520px;    /* But never goes bigger than 1000px */
-  height: 430px;         /* Let the height adjust naturally */
- /* Keeps the 1000x400 shape perfectly so nothing is cut off */
+  width: 100%;        
+  max-width: 1520px;   
+  height: 430px;        
   margin: 0 auto;
-  overflow: hidden;     /* Hides the belt */
+  overflow: hidden;     
   position: relative;
   box-sizing: border-box;
    
@@ -325,7 +324,7 @@ header{
 .slider_belt img{
      height:100%;
     width:1520px;
-    flex-shrink: 0;   /* CRITICAL: Prevents squashing */
+    flex-shrink: 0;   
      object-fit: fill;
     display: block;
     padding: 0;
@@ -334,15 +333,12 @@ header{
 }
 
 @keyframes autoSlide {
-  /* 0% to 45%: Show the first image */
   0%, 45% {
     transform: translateX(0);
   }
-  /* 50% to 95%: Slide to and show the second image */
   50%, 95% {
     transform: translateX(-33.333%);
   }
-  /* 100%: Quickly move to the duplicate of the first image to reset the loop */
   100% {
     transform: translateX(-66.666%);
   }
@@ -416,7 +412,6 @@ header{
 }
 
 
-
 .footer_column h4{
      font-size: 14px;
      font-weight: bold;
@@ -486,6 +481,8 @@ header{
 
 .popular_searches p{
     line-height: 1.7;
+    color: #696b79;
+
 }
 
 .footer_bottom{
