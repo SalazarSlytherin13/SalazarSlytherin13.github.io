@@ -6,61 +6,208 @@
     <title>Myntra</title>
     <link rel="stylesheet" href="style.css">
     <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-
-
-
+    
 </head>
-<body>
-    <div id="header">
+<body> 
+    <header>
         <div class="logo_container">
-            <a href="#"><img class="myntra_home" src="./myntra-logo.png" alt="Myntra Home"></a>
+            <a href="#">
+                <img class="myntra_home" src="./myntra-logo.png" alt="Myntra Home">
+            </a>
         </div>
         <nav class="nav_bar">
-            <a href="#" class="nav_item men">MEN</a>
-            <a href="#" class="nav_item women">WOMEN</a>
-            <a href="#" class="nav_item kids">KIDS</a>
-            <a href="#" class="nav_item home">HOME</a>
-            <a href="#" class="nav_item beauty">BEAUTY</a>
-            <a href="#" class="nav_item genz">GENZ</a>
-            <a href="#" class="nav_item studio">STUDIO<sup>NEW</sup></a>
-
-
-
+            <a class="men"href="#">MEN</a>
+            <a class="women"href="#">WOMEN</a>
+            <a class="kids"href="#">KIDS</a>
+            <a class="home"href="#">HOME</a>
+            <a class="beauty"href="#">BEAUTY</a>
+            <a class="genz"href="#">GENZ</a>
+            <a class="studio" href="#">STUDIO<sup>NEW</sup></a>
         </nav>
         <div class="search_bar">
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-magnifying-glass search_icon"></i>
             <input class="search_input" placeholder="Search for products, brands and more">
         </div>
         <div class="action_bar">
             <div class="action_container">
-             <i class="fa-solid fa-user"></i>
-             <span class="action_name">Profile</span>
+                <i class="fa-regular fa-user action_icon"></i>
+                <span class="action_name">Profile</span>
             </div>
-             <div class="action_container">
-             <i class="fa-solid fa-heart"></i>
-             <span class="action_name">Wishlist</span>
-             </div>
-             <div class="action_container">
-             <i class="fa-solid fa-bag-shopping"></i>
-             <span class="action_name">Bag</span>
-             </div>
+            <div class="action_container">
+                <i class="fa-regular fa-heart action_icon"></i>
+                <span class="action_name">Wishlist</span>
+            </div>
+            <div class="action_container">
+                <i class="fa-solid fa-bag-shopping action_icon"></i>
+                <span class="action_name">Bag</span>
+            </div>
         </div>
-        </div>
-    <main class="container">
+    </header>
+    <main>
         <div class="banner_container">
-            <a href="#">
-                <img src="./Discount.png" alt="Flat 30% off sale" class="discount_banner" height="866.4" width="67.688">
-            </a>
+            <img src="./Discount.png" alt="Main Banner" height="90px" width="1200px">
         </div>
-        <div class="main_banner">
-            <a href="#">
-                <img src="./Year_End_Bash.png" alt="Year End Bash" height="700" width="1200">
-            </a>
+        <a href="#" class="banner_link">
+            <div class="year_end_container">
+            <img src="./Year_End_Bash.png" alt="Bash Banner" height="400px" width="1300px">
         </div>
-        <div class="category_heading">Category Heading</div>
-        <div class="category_items">Category Items</div>
-    </main>
-    <footer>Footer</footer>
 
+           <div class="sponsor_container">
+            <img src="./sponsor.png" alt="Sponsor Banner" height="75px" width="1280px">
+           </div>
+
+           <div class="small_banner_container">
+            <img src="./small_banner.png" alt="Small Banner" height="50px">
+           </div>
+       
+        
+         <div class="slider_container">
+           <div class="image_belt">
+            <img src="./image1.png" alt="Slide 1" height="280px" width="1300px" >
+            <img src="./image2.png" alt="Slide 2" height="280px" width="1300px">
+            <img src="./image3.png" alt="Slide 3" height="280px" width="1300px">
+            <img src="./image4.png" alt="Slide 4" height="280px" width="1300px">
+            </div>
+        
+        </div>
+
+        <div class="lower_banner">
+            <img src="./bollywood_banner.png" alt="Bollywood Bling Banner" height="100px" width="1300px">
+        </div>
+
+        <div class="bollywood_slider_container">
+            <div class="slider_belt">
+                <img src="./bollywood slide 1.png" alt="Bollywood Slide 1" height="430px" width="1520px">
+                <img src="./bollywood slide 2.png" alt="Bollywood Slide 2" height="430px" width="1520px">
+            </div>
+        </div>
+
+        <div class="shop_banner">
+            <img src="./category_banner.png" alt="Shopping Banner" height="120px" width="1400px" > 
+        </div>
+        </a>
+
+        <a href="#" class="category_link">
+        <div class="category_section">
+            <div class="category_row">
+            <div class="item"><img src="./row_1.png"></div> 
+            <div class="item"><img src="./row_2.png"></div> 
+            <div class="item"><img src="./row_3.png"></div>
+            <div class="item"><img src="./row_4.png"></div>
+            <div class="item"><img src="./row_5.png"></div>
+            </div>
+        </div>
+         </a>
+
+         <a href="#" class="lowest_link">
+            <div class="offers">
+                <img src="./lowest_banner.png" alt="Offers Banner" height="225px" width="1200px">
+            </div>
+         </a>
+
+    </main>
+    <footer class="footer">
+        <div class="footer_container">
+           <div class="footer_column_2">
+            <div class="footer_column">
+                <h4>ONLINE SHOPPING</h4>
+                <ul>
+                    <li>Men</li>
+                    <li>Women</li>
+                    <li>Kids</li>
+                    <li>Home</li>
+                    <li>Beauty</li>
+                    <li>Genz</li>
+                    <li>Gift Cards</li>
+                    <li>Myntra Insider</li>
+                </ul>
+            </div>
+
+             <div class="footer_column">
+                <h4>USEFUL LINKS</h4>
+                <ul>
+                    <li>Blog</li>
+                    <li>Careers</li>
+                    <li>Site Map</li>
+                    <li>Corporate Information</li>
+                    <li>Whitehat</li>
+                    <li>Cleartrip</li>
+                    <li>Myntra Global</li>
+                </ul>
+            </div> 
+            </div>
+           
+    <div class="footer_column">
+      <h4>CUSTOMER POLICIES</h4>
+      <ul>
+        <li>Contact Us</li>
+        <li>FAQ</li>
+        <li>T&C</li>
+        <li>Terms Of Use</li>
+        <li>Track Orders</li>
+        <li>Shipping</li>
+        <li>Cancellation</li>
+        <li>Returns</li>
+        <li>Privacy Policy</li>
+        <li>Grievance Redressal</li>
+        <li>FSSAI Food Safety</li>
+        <li>Connect app</li>
+      </ul>
+    </div>
+   
+
+    <div class="footer_column">
+        <h4>EXPERIENCE MYNTRA APP ON MOBILE</h4>
+        <div class="app_buttons">
+            <img src="./google_play.png" alt="Google Play Store">
+            <img src="./Apple_store.png" alt="Apple App Store">
+        </div>
+        
+
+        <h4>KEEP IN TOUCH</h4>
+        <div class="social_icons">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </div>
+
+    <div class="footer_column">
+        <div class="guarantee">
+            <strong>100% ORIGINAL</strong>
+            <p>guarantee for all products at myntra.com</p>
+        </div>
+
+        <div class="guarantee">
+            <strong>Return within 14 days</strong>
+            <p>of receiving your order</p>
+        </div>
+    </div>
+
+    
+    
+    <div class="popular_searches">
+        <h4>POPULAR SEARCHES</h4>
+        <p>Makeup | Dresses For Girls | T-Shirts | Sandals | Headphones | Babydolls |
+      Blazers For Men | Handbags | Ladies Watches | Bags | Sport Shoes |
+      Reebok Shoes | Puma Shoes | Wallets | Tops | Earrings | Kurtis |
+      Smart Watches | Titan Watches | Designer Blouse | Gowns | Rings |
+      Forever 21 | Saree | Watches | Dresses | Lehenga | Nike Shoes</p>
+    </div>
+
+    
+
+    <div class="footer_bottom">
+        <p>In case of any concern,
+            <span class="link">Contact Us</span>
+        </p>
+        <p>&copy; 2025 www.myntra.com. All rights reserved.</p>
+        <p>A Flipkart company</p>
+    </div>
+        </div>
+
+    </footer>
+    
 </body>
 </html>
